@@ -18,3 +18,5 @@ reverse_zahlen.reverse()
 print(f"Umgekehrt {reverse_zahlen}")
 
 print(f"Nur die geraden Zahlen: {get_evens(zahlen)}")
+print(f"Alternative für gerade Zahlen: {list(filter(lambda n: n % 2 == 0, zahlen))}")
+print(f"Zahlenliste: {zahlen}")
