@@ -29,7 +29,7 @@ class BankAccount:
 
     def zeige_kontostand(self): 
         #Gibt den aktuellen Kontostand aus.
-        print("{self.kontostand}")
+        print(f"Kontostand: {self.kontostand}€")
         
     def __str__(self):
         return f"Konto von {self.kontoinhaber} - Kontostand: {self.kontostand} €"
