@@ -25,7 +25,7 @@ class BankAccount:
     def  zinsen_berechnen(self, zinssatz:float):
         #Der aktuelle Kontostand wird mit dem übergebenen Zinssatz (in %) verzinst, aber nur wenn der Kontostand positiv ist.
         if self.kontostand > 0.0:
-            self.kontostand += self.kontostand * (1+zinssatz/100)
+            self.kontostand += self.kontostand * (zinssatz/100)
 
     def zeige_kontostand(self): 
         #Gibt den aktuellen Kontostand aus.
