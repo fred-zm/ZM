@@ -6,7 +6,7 @@ def fahrenheit_zu_celsius(f):
 
 def main():
     while True:
-        input_string = input("Temperatur: ").strip().lower().replace(' ', '')
+        input_string = input("Temperatur: ").strip().lower().replace(' ','').replace('°','')
         if input_string.__contains__("s") or input_string.__contains__("q"):
             break
         try:
